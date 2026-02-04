@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: black;
+}
+
+.logo {
+    color: red;
+}
+
+.btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.big {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to top, black, transparent),
+                url("https://i.ibb.co/vXqDmnh/background.jpg");
+    background-size: cover;
+}
+
+/* MOVIES */
+.movies {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.movies img {
+    width: 200px;
+    border-radius: 6px;
+    transition: transform 0.3s;
+}
+
+.movies img:hover {
+    transform: scale(1.1);
+}
